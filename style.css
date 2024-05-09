@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    box-shadow: 0 10px 10px -12px rgba(159, 151, 151, 0.384);
+   
+    
+}
+.navbar img{
+    object-fit: cover;
+    width: 60px;
+    margin-left: 10px;
+}
+.navbar .navbar_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+   
+}
+.navbar ul li{
+    margin-right: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+}
+
+
+.navbar .ul_name  .studio::after{
+    content: 'NEW';
+    color: red;
+    position: absolute;
+    top: -7px;
+    font-size: 10px;
+
+}
+.navbar .ul_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+.navbar .nav_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+
+}
+.navbar .search_bar input{
+    width: 388px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(193, 194, 194, 0.409);
+    border: none;
+    outline: none;
+    color: black;
+    padding-left: 40px;
+    position: relative;
+}
+.navbar .search_bar i{
+    top: 30px;
+    position: absolute;
+    opacity: 0.5;
+}
+ .navbar  .nav_icon{
+    position: relative;
+    
+ }
+ .navbar  .nav_icon i{
+    opacity: 0.5;
+
+ }
+.navbar .nav_icon li{
+    display: block;
+    position: relative;
+    right: 6px;
+
+   
+}
+.navbar{
+    margin-bottom: 30px;
+}
+/* =============================== */
+
+section-1 .container-fluid{
+    margin-bottom: 10px;
+}
+ section-1 .container-fluid p span{
+    font-weight: 500;
+    font-size: 13px;
+ }
+
+ section-1 .container-fluid p{
+    font-weight: 100;
+    font-size: 13px;
+    
+ }
+
+/* =========================================== */
+section-2 .container-fluid .row h5 {
+    font-size: 10px;
+    font-weight: 800;
+   
+    
+}
+section-2 .container-fluid .row .com-md-12{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+section-2 .container-fluid .row ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+section-2 .container-fluid .row ul i{
+    margin-left: 15px;
+    position: relative;
+    right: 3px;
+    top: 3px;
+}
+section-2 .container-fluid .row ul li{
+    margin-left: 20px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 13px;
+    
+    cursor: pointer;
+}
+section-2 .container-fluid .row ul li:hover{
+   
+    background-color: rgba(128, 128, 128, 0.21);
+    border-radius: 30px;
+    padding: 3px 8px 3px 8px;
+
+}
+
+section-2 .container-fluid .row  .inputype{
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.527);
+    border-radius: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 104px;
+}
+section-2 .container-fluid .row  .inputype p{
+    position: relative;
+    top: 7px;
+    font-weight: 200;
+    font-size: 13px;
+
+}
+section-2 .container-fluid .row  .inputype p span{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+section-2 .container-fluid .row  .inputype  i{
+    position: relative;
+    top: 10px;
+    left: 90px;
+}
+section-2 .container-fluid .row .list{
+    position: relative;
+    right: 70px;
+    
+    
+}
+section-2 .container-fluid{
+    margin-bottom:20px ;
+}
+
+
+
+ /* ============================ */
+.section-3{
+    margin-top: 140px;
+}
+section-3 .container-fluid{
+    margin-bottom: 80px;
+}
+ section-3 .container-fluid .first_list{
+    font-weight: 600;
+ }
+ section-3 .container-fluid .col-md-9{
+    display: flex;
+
+ }
+ section-3 .container-fluid .col-md-9 .col-md-3{
+     border: 1px solid red;
+ }
+
+
+section-3 .container-fluid .row .col-md-3 img{
+    height: 200px;
+    width: 200px;
+}
+section-3 .container-fluid .row .col-md-12{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* grid-template-columns: 1fr 1f1 1fr; */
+  gap: 5px;
+
+  
+    
+}
+ section-3 .container-fluid .row .col-md-12 .card{
+    width: 100%;
+} 
+section-3 .container-fluid .row .col-md-12 .card img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+section-3 .container-fluid .row .col-md-12 .card p span{
+    text-decoration: line-through;
+    font-weight: 100;    
+    margin-left: 5px;
+}
+
+
+
+
+
+/* =======================section-4======================= */
+section-4 .container-fluid{
+    background-color: rgba(185, 181, 181, 0.068);
+}
+section-4 .container-fluid .row .video_content h6{
+    text-align: center;
+    font-weight: 700;
+    color: rgba(90, 87, 87, 0.744);
+}
+section-4 .container-fluid .col-md-7 .video_real h6{
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.82);
+
+}
+section-4 .container-fluid  video{
+    height: 300px;
+    width: 100%;
+    text-align: right;
+    float: right;
+    
+}
+section-4 .container-fluid .row .col-md-5{
+    display: flex;
+}
+section-4 .container-fluid .row .col-md-5 h6{
+    font-weight: 700;
+   color: rgba(90, 87, 87, 0.744);
+}
+section-4 .container-fluid .row .col-md-5 .right .product{
+    width: 90%;
+   font-size: small;
+}
+section-4 .container-fluid .row .col-md-5 .price{
+    font-size: small;
+    
+
+}
+
+
+
+/* ================================ */
+footer .container-fluid{
+    background-color: rgba(185, 181, 181, 0.068);
+}
+footer .container-fluid .row ul{
+    list-style-type: none;
+
+    
+}
+footer .container-fluid .row ul li a{
+    text-decoration: none;
+    color: rgba(71, 72, 74, 0.877);
+}
+footer .container-fluid .row .link{
+    margin-left: 14px;
+}
+/* ============================================ */
+.footer_last .container-fluid{
+    background-color: rgba(185, 181, 181, 0.068);
+
+}
+
+
+/* ======================================== */
+
+.footer_last .container-fluid .row h6{
+    font-weight: 600;
+}
+.footer_last .container-fluid .row p{
+    font-weight: 300;
+}
+
+
+/* ===================================== */
+section-5 .container-fluid{
+    background-color: rgba(185, 181, 181, 0.068);
+}
+/* section-5 .container-fluid{
+    margin-bottom: 40px;
+} */
+section-5 .container-fluid .row .first_p{
+    text-align: left; 
+}
+section-5 .container-fluid .row  p span{
+    font-size: 16px;
+    color:rgba(0, 0, 255, 0.573);
+    font-weight: 700;
+}
+section-5 .container-fluid .row .second_p{
+    text-align: center; 
+}
+section-5 .container-fluid .row .three_p{
+    text-align: end;
+    
+    
+}
