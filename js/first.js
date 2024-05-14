@@ -10,3 +10,15 @@ $(document).ready(function(){
         alert('  your Product added Thanku😍')
     })
 })
+
+
+$(document).ready(function(){
+    var target=document.getElementById('scroll_1')
+    var scroll_heigt=target.scrollHeight;
+
+    $('#scroll_1').css('background-Color','')
+})
+
+var target=document.getElementById('scroll_1')
+var scroll_heigt=target.scrollHeight;
+console.log(scroll_heigt)

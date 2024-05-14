@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+
+section-1 .video_container{
+    height: 100vh;
+    width: 100%;
+
+    
+ }
+
+section-1 video{
+    width: 100%;
+    height: 100%;
+    
+}
+section-1 .container-fluid{
+    margin-bottom: 80px;
+}
+
+
+/* ==============section-2============== */
+section-2 .container-fluid .row h2{
+    font-weight: 700;
+    color: rgb(49, 48, 47);
+    margin-left: 55px;
+    
+
+}
+section-2 .container-fluid .row .cards{
+    min-height:100%;
+    width: 100%;
+    background-color: rgb(246, 245, 248);   
+}
+
+section-2 .container-fluid .row .card-1{
+    width: 90%;
+    height:100%;
+    margin: auto;
+}
+section-2 .container-fluid .row .card-1 img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+   box-shadow: 3px 3px 2px rgb(121, 117, 117);
+}
+section-2 .container-fluid .row .card-1  h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+
+}
+section-2 .container-fluid .row .card-1  h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+
+}
+section-2 .container-fluid .row .card-1 p{
+    color: red;
+    text-align: center;
+    font-weight: 300;
+}
+section-2 .container-fluid{
+    margin-bottom: 80px;
+}
+
+/* =================section-3================= */
+
+section-3 .container-fluid{
+    margin-top: 20px;
+}
+section-3 .container-fluid .row h2{
+    font-weight: 700;
+    color: rgb(49, 48, 47);
+    margin-left: 55px;
+    
+}
+section-3 .container-fluid .row .cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section-3 .container-fluid .row .cards .card{
+    height: 160px;
+    width: 140px;
+   background-color:  rgb(246, 246, 246);
+}
+section-3 .container-fluid .row .cards .card img{
+   
+    width: 100%;
+
+}
+/* ==========================section-4============================ */
+
+section-4 .container-fluid .row .col-md-12{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* grid-template-columns: 1fr 1f1 1fr; */
+  gap: 5px;
+  
+}
+
+section-4 .container-fluid .row .col-md-12  .cards {
+    width: 100%;
+    
+    background-color: red;
+}
+section-4 .container-fluid .row .col-md-12  .card img{
+    width: 100%;
+}
+
+/* ========================section-5==============  */
+section-5 .container-fluid{
+    height: 700px;
+}
+section-5 .container-fluid .row .col-md-12{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+section-5 .container-fluid .row .col-md-12 .first_circle{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    top: 40px;
+    border-top-left-radius: 50%;
+
+background-clip: content-box;
+background-image: url(image/boy2.jpeg);
+background-repeat: no-repeat;
+background-position:100% ;
+background-size: 100%;
+object-fit: cover;
+
+}
+section-5 .container-fluid .row .col-md-12 .sec_circle{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+   position: relative;
+   top: 200px;
+   border-radius: 40px 10px 40px 10px ;
+   background-clip: content-box;
+background-image: url(image/boy3.webp);
+background-repeat: no-repeat;
+background-position:100% ;
+background-size: 100%;
+object-fit: cover;
+}
+section-5 .container-fluid .row .col-md-12 .three_circle{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+   position: relative;
+   top: 40px;
+   border-radius: 40px 30px 60px 10px ;
+   background-clip: content-box;
+background-image: url(image/boy4.webp);
+background-repeat: no-repeat;
+background-position:100% ;
+background-size: 100%;
+object-fit: cover;
+
+}
+
+   
+  
+
+   
+
+    
+
