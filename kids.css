@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    box-shadow: 0 10px 10px -12px rgba(159, 151, 151, 0.384);
+}
+.navbar img{
+    object-fit: cover;
+    width: 60px;
+    margin-left: 10px;
+}
+.navbar .navbar_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+   
+}
+.navbar ul li{
+    margin-right: 28px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(40, 44, 63);
+}
+
+
+.navbar .ul_name  .studio::after{
+    content: 'NEW';
+    color: red;
+    position: absolute;
+    top: -7px;
+    font-size: 10px;
+}
+.navbar .ul_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+.navbar .nav_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+
+}
+.navbar .search_bar input{
+    width: 388px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(193, 194, 194, 0.409);
+    border: none;
+    outline: none;
+    color: black;
+    padding-left: 40px;
+    position: relative;
+}
+.navbar .search_bar i{
+    top: 30px;
+    position: absolute;
+    opacity: 0.5;
+}
+ .navbar  .nav_icon{
+    position: relative;
+    
+ }
+ .navbar  .nav_icon i{
+    opacity: 0.5;
+
+ }
+.navbar .nav_icon li{
+    display: block;
+    position: relative;
+    right: 6px;
+
+}
+.navbar .nav_icon li:hover{
+    color: red;
+}
+.navbar{
+    margin-bottom: 30px;
+}
+/* =============================== */
+
+section-1 .container-fluid{
+    margin-bottom: 10px;
+}
+ section-1 .container-fluid p span{
+    font-weight: 500;
+    font-size: 13px;
+ }
+
+ section-1 .container-fluid p{
+    font-weight: 100;
+    font-size: 13px;
+    
+ }
+
+ /* =========================section-2===================== */
+ section-2 img{
+    width: 70%;
+    height: 300px;
+   object-fit: cover;
+ }
+
+ /* =============================section-3================= */
+ section-3 .container-fluid{
+    margin-bottom: 50px;
+ }
+ section-3 .container-fluid .row .col-md-12{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; */
+    grid-template-columns: repeat(9 ,auto);
+    grid-template-rows: 120px ;
+    grid-column-gap:12px ;
+    
+ }
+ section-3 .container-fluid .card{
+  
+ border: 2px solid rgb(249, 220, 116);
+  border-radius: 50%; 
+  box-shadow: 2px 5px 4px rgb(242, 242, 242);
+ }
+ section-3 .container-fluid .row .card-1{
+    background-image: url(kidsimage/allen\ solly.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ section-3 .container-fluid .row .card-2{
+    background-image: url(kidsimage/united.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ section-3 .container-fluid .row .card-3{
+    background-image: url(kidsimage/nau.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ section-3 .container-fluid .row .card-4{
+    background-image: url(kidsimage/us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ section-3 .container-fluid .row .card-5{
+    background-image: url(kidsimage/mini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ section-3 .container-fluid .row .card-6{
+    background-image: url(kidsimage/peppermint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ section-3 .container-fluid .row .card-7{
+    background-image: url(kidsimage/lil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+
+ section-3 .container-fluid .row .card-8{
+    background-image: url(kidsimage/gini.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ section-3 .container-fluid .row .card-9{
+    background-image: url(kidsimage/yk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixd;
+    object-fit: cover;
+ }
+ /* ===================section-4========== */
+ section-4 .container-fluid{
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ section-4 .container-fluid .row h2{
+    letter-spacing: 6px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+/* ================================ */
+footer .container-fluid{
+    background-color: rgba(185, 181, 181, 0.068);
+}
+footer .container-fluid .row ul{
+    list-style-type: none;
+
+    
+}
+footer .container-fluid .row ul li a{
+    text-decoration: none;
+    color: rgba(71, 72, 74, 0.877);
+}
+footer .container-fluid .row .link{
+    margin-left: 14px;
+}
+/* ============================================ */
+.footer_last .container-fluid{
+    background-color: rgba(185, 181, 181, 0.068);
+
+}
+
+
+/* ======================================== */
+
+.footer_last .container-fluid .row h6{
+    font-weight: 600;
+}
+.footer_last .container-fluid .row p{
+    font-weight: 300;
+}
+
+
+/* ===================================== */
+section-5 .container-fluid{
+    background-color: rgba(185, 181, 181, 0.068);
+}
+/* section-5 .container-fluid{
+    margin-bottom: 40px;
+} */
+section-5 .container-fluid .row .first_p{
+    text-align: left; 
+}
+section-5 .container-fluid .row  p span{
+    font-size: 16px;
+    color:rgba(0, 0, 255, 0.573);
+    font-weight: 700;
+}
+section-5 .container-fluid .row .second_p{
+    text-align: center; 
+}
+section-5 .container-fluid .row .three_p{
+    text-align: end;
+    
+    
+}

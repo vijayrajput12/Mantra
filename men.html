@@ -31,12 +31,12 @@
             </div>
             <!-- <div class="navbar_name"> -->
             <ul class="ul_name">
-                <li> MEN</li>
-                <li>WOMEN</li>
-                <li>KIDS</li>
-                <li>HOME&LIVING</li>
-                <li>BEAUTY</li>
-                <li class="studio">STUDIO</li>
+                <li> <a href="men.html">MEN</a> </li>
+                <li> <a href="women.html">WOMEN</a> </li>
+                <li> <a href="">KIDS</a></li>
+                <li> <a href="">HOME&LIVING</a></li>
+                <li> <a href="">BEAUTY</a></li>
+                <li class="studio"> <a href="">STUDIO</a></li>
             </ul>
             <div class="search_bar">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -64,17 +64,47 @@
     </header>
 
 
-    <section-1>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
+    <!-- <section-1>
+        <div class="container-flui">
+            <div class="ro">
+                <div class="col-md-1">
                     <div class="video_container">
-                   <video muted autoplay loop src="men image/header video.mp4"></video>
+                   <video  muted autoplay loop src="men image/header video.mp4"></video>
                 </div>
                 </div>
             </div>
         </div>
+    </section-1> -->
+    <section-1>
+        <div class="container_video">
+            <video   autoplay loop muted>
+                <source  src="men image/video2.mp4" type="video/mp4" hei>
+            </video>
+        </div>
     </section-1>
+
+
+    <div class="alllinks">
+        <div class="whatshap" style="background-color: red;"  onmouseenter='first()' onmouseleave="first1()" id='whatshap'>
+            <img src="link_img/whatshap.jpeg" alt="">
+            <p>this is whatshap</p>
+            
+
+        </div>
+        <div class="pytem whatshap" style="background-color: rgb(0, 255, 98);"  onmouseenter='sec()'  onmouseleave="sec1()" id='pytem'>
+            <img src="link_img/pytem.png" alt="">
+            <p>this is pytem</p>
+        </div>
+        <div class="googlepay whatshap" style="background-color: rgb(76, 0, 255);" onmouseenter='three()' onmouseleave="three1()" id='amazon'>
+            <img src="link_img/google.png" alt="">
+            <p>this is amzon</p>
+        </div>
+        <div class="amozonpay whatshap" style="background-color: rgb(201, 15, 18);" onmouseenter='four()' onmouseleave="four1()"id="google">
+            <img src="link_img/amzon.jpeg" alt="">
+            <p>this is google</p>
+        </div>
+      </div>
+
 
     <section-2>
         <div class="container-fluid">
@@ -572,7 +602,58 @@
 
 
 
+<!-- ===========================js================== -->
+<script>
+    var whatshap=document.getElementById('whatshap')
+      function first(){
+        whatshap.style.right='160px'
+       
+      }
 
+      var whatshap=document.getElementById('whatshap')
+      function first1(){
+        whatshap.style.right='0px'
+       
+      }
+      /*==========================sec================= */
+
+      var pytem=document.getElementById('pytem')
+      function sec(){
+        pytem.style.right='160px'
+      }
+
+      var pytem=document.getElementById('pytem')
+      function sec1(){
+        pytem.style.right='0px'
+       
+      }
+       /*==========================three================= */
+
+      var amazon=document.getElementById('amazon')
+      function three(){
+        amazon.style.right='160px'
+      }
+      function three1(){
+        amazon.style.right='0px'
+      }
+
+
+
+      /*==========================four================= */
+      var google=document.getElementById('google')
+      function four(){
+        google.style.right='160px'
+       
+       
+      }
+      function four1(){
+        google.style.right='0px'
+       
+       
+      }
+
+
+</script>
 
 <script src="js/first.js"></script>
 </body>
