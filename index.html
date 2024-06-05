@@ -22,12 +22,13 @@
 
        
 
+       
+
 </head>
 
 <body>
-
     <header>
-        <div class="navbar">
+        <div class="navbar" width="100%" >
             <div class="navbar_img">
                 <img src="image/mantra-removebg-preview.png" alt="">
             </div>
@@ -61,24 +62,20 @@
             </div>
             </ul>
         </div>
-
         <!-- </div> -->
         </div>
     </header>
 
 
     <section-1>
-        <div class="container-fluid">
+        <div class="container-fluid" >
             <div class="row">
                 <div class="col-md-12">
                     <p>Home / <span>Mantra Com</span></p>
                     <p> <span>Mantra Com</span> - 88 items</p>
-
                 </div>
             </div>
         </div>
-
-
     </section-1>
 
 
@@ -89,7 +86,6 @@
                     <div class="filter">
                         <h6>FILTERS</h6>
                     </div>
-
                     <div class="list">
                         <ul>
                             <li>Bundles</li>
@@ -113,9 +109,9 @@
 
     <section-3 style="margin-top: 40px;">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3 " id="scroll_1">
-                    <div class="first_list">
+            <div class="row" >
+                <div class="col-md-3 " id="scroll_1" >
+                    <div class="first_list" >
                         <ul style="list-style-type:circle;">
                             <li>Men</li>
                             <li>Women</li>
@@ -839,15 +835,23 @@
             </div>
         </section-5>
 
+        <script>
+            window.addEventListener('scroll',function(){
+                let sidebar=document.getElementById('scroll_1')
+                if(window.pageXOffset>=100){
+                    sidebar.className.add('sticky')
+            
+                }
+                else{
+                    sidebar.classList.remove('sticky')
+                }
+            
+            })
+            
+        </script>
+
         
-</body>
-
-</html>
-
-
-
-
-
+<script src="position.js"></script>
 <script src="js/first.js"></script>
 </body>
 </html>

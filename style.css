@@ -10,6 +10,7 @@
 
 }
 
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -17,6 +18,9 @@
     list-style: none;
     height: 80px;
     box-shadow: 0 10px 10px -12px rgba(159, 151, 151, 0.384);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 .navbar img{
     object-fit: cover;
@@ -346,4 +350,11 @@ section-5 .container-fluid .row .three_p{
     text-align: end;
     
     
+}
+
+.sticky{
+    z-index: 5;
+    position: fixed;
+    width: 30px;
+
 }
